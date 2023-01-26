@@ -17,10 +17,10 @@ const Header = () => {
         className="absolute z-10 w-full flex px-12 sm:px-20 lg:px-44"
         style={{ top: brandPosition }}
       >
-        <div className="lg:w-2/3">
+        <div className="">
           <Logo />
-          <h2 className="text-white font-dmserif text-4xl mt-8">Welcome to</h2>
-          <h1 className="text-white font-montserrat font-black text-7xl lg:text-[170px] leading-[0.9em] uppercase tracking-tighter">
+          <h2 className="text-white font-dmserif text-2xl lg:text-4xl mt-8">Welcome to</h2>
+          <h1 className="text-white font-montserrat font-black text-7xl md:text-9xl lg:text-[170px] leading-[0.9em] uppercase tracking-tighter">
             Ronan
             <br />
             Morais
@@ -29,7 +29,6 @@ const Header = () => {
             Graphic Designer and Front-End Developer Website
           </h2>
         </div>
-        <div className="çgw-1/3 flex"></div>
       </motion.div>
       <motion.div
         className="absolute inset-0 z-0 bg-black"
