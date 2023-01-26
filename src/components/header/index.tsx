@@ -22,7 +22,7 @@ const Header = () => {
           <h2 className="text-white font-dmserif text-1xl md:text-2xl lg:text-3xl xl:text-4xl mt-8">
             Welcome to
           </h2>
-          <h1 className="text-white font-montserrat font-black text-7xl md:text-9xl lg:text-[170px] leading-[0.9em] uppercase tracking-tighter">
+          <h1 className="text-white font-montserrat font-light sm:font-light md:font-medium lg:font-black text-7xl md:text-9xl lg:text-[170px] leading-[0.9em] uppercase tracking-tighter">
             Ronan
             <br />
             Morais
