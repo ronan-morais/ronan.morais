@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main>
+    <main className="snap-mandatory snap-y">
       <Header />
       <About />
       <Works />
