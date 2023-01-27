@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-y-scroll snap-mandatory snap snap-y h-auto">
       <Header />
       <About />
       <Works />

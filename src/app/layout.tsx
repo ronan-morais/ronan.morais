@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${montserrat.variable} ${dmSerif.variable}`}>
       <head />
-      <body>{children}</body>
+      <body className="cursor-default select-none">{children}</body>
     </html>
   );
 }
