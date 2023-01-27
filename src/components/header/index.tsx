@@ -11,13 +11,13 @@ const Header = () => {
   const left = useTransform(scrollYProgress, [0, 1], ["100%", "-1600px"], {
     clamp: false,
   });
-  const opacity = useTransform(scrollYProgress, [0, 1], [0.3, 2]);
+  const opacity = useTransform(scrollYProgress, [0, 1], [0.4, 2]);
   const brandPosition = useTransform(scrollYProgress, [0, 1], ["25%", "180%"]);
 
   return (
     <section className="container snap-start overflow-hidden flex max-w-full h-screen bg-black bg-contain relative justify-center items-center">
       <motion.div
-        className="absolute z-10 w-full flex pl-12 sm:px-20 lg:px-44"
+        className="absolute z-10 w-full flex pl-12 sm:px-20 lg:px-28"
         style={{ top: brandPosition }}
       >
         <div className="">
@@ -26,7 +26,7 @@ const Header = () => {
             Welcome to
           </h2> */}
           <motion.h1
-            className="text-white pt-7 lg:absolute overflow-hidden lg:whitespace-nowrap font-montserrat font-black text-7xl lg:text-[300px] leading-[0.9em] uppercase tracking-tighter"
+            className="text-white pt-7 lg:absolute overflow-hidden lg:whitespace-nowrap font-montserrat font-black text-[19vw] lg:text-[300px] leading-[0.9em] uppercase tracking-tight"
             style={{
               left: left,
             }}
@@ -34,7 +34,7 @@ const Header = () => {
             Ronan Morais <span className="hidden lg:inline-flex">Ronan Morais Ronan Morais Ronan Morais Ronan Morais
             Ronan Morais Ronan Morais Ronan Morais Ronan Morais Ronan Morais</span>
           </motion.h1>
-          <h2 className="text-white pt-3 lg:pt-[400px] lg:absolute font-dmserif text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-1">
+          <h2 className="text-white pt-3 lg:pt-[300px] lg:absolute font-dmserif text-xl md:text-2xl lg:text-4xl xl:text-5xl mt-1">
             Front-End Developer <br className="md:hidden" />
             and Graphic Designer
           </h2>
