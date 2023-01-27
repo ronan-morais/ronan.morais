@@ -1,7 +1,6 @@
 "use client";
 import { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
 import "swiper/swiper.min.css";
 import "swiper/css/autoplay";
 
