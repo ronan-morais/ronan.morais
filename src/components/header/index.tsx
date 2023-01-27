@@ -3,34 +3,40 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Logo from "./logo";
 
-interface Props {}
-
 const Header = () => {
   const { scrollYProgress } = useScroll();
   const bg = useTransform(scrollYProgress, [0, 1], ["0px", "1000px"], {
     clamp: false,
   });
-  const opacity = useTransform(scrollYProgress, [0, 1], [0.5, 2]);
-  const brandPosition = useTransform(scrollYProgress, [0, 1], ["25%", "200%"]);
+  const left = useTransform(scrollYProgress, [0, 1], ["100%", "-1600px"], {
+    clamp: false,
+  });
+  const opacity = useTransform(scrollYProgress, [0, 1], [0.3, 2]);
+  const brandPosition = useTransform(scrollYProgress, [0, 1], ["25%", "180%"]);
 
   return (
     <section className="container snap-start overflow-hidden flex max-w-full h-screen bg-black bg-contain relative justify-center items-center">
       <motion.div
-        className="absolute z-10 w-full flex px-12 sm:px-20 lg:px-44"
+        className="absolute z-10 w-full flex pl-12 sm:px-20 lg:px-44"
         style={{ top: brandPosition }}
       >
         <div className="">
           <Logo />
-          <h2 className="text-white font-dmserif text-1xl md:text-2xl lg:text-3xl xl:text-4xl mt-8">
+          {/* <h2 className="text-white pt-0 absolute font-dmserif left-12 text-2xl md:left-28 md:text-2xl lg:text-3xl xl:text-4xl mt-8">
             Welcome to
-          </h2>
-          <h1 className="text-white font-montserrat font-medium md:font-black text-7xl md:text-9xl lg:text-[170px] leading-[0.9em] uppercase tracking-tighter">
-            Ronan
-            <br />
-            Morais
-          </h1>
-          <h2 className="text-white font-dmserif  text-1xl md:text-2xl lg:text-3xl xl:text-4xl mt-1">
-            Graphic Designer and Front-End Developer Website
+          </h2> */}
+          <motion.h1
+            className="text-white pt-7 lg:absolute overflow-hidden lg:whitespace-nowrap font-montserrat font-black text-7xl lg:text-[300px] leading-[0.9em] uppercase tracking-tighter"
+            style={{
+              left: left,
+            }}
+          >
+            Ronan Morais <span className="hidden lg:inline-flex">Ronan Morais Ronan Morais Ronan Morais Ronan Morais
+            Ronan Morais Ronan Morais Ronan Morais Ronan Morais Ronan Morais</span>
+          </motion.h1>
+          <h2 className="text-white pt-3 lg:pt-[400px] lg:absolute font-dmserif text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-1">
+            Front-End Developer <br className="md:hidden" />
+            and Graphic Designer
           </h2>
         </div>
       </motion.div>
