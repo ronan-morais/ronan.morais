@@ -11,9 +11,9 @@ const AboutSlider = () => {
       spaceBetween={0}
       slidesPerView={1}
       modules={[Autoplay]}
-      autoplay={{ delay: 2000 }}
+      autoplay={{ delay: 3000 }}
       loop={true}
-      speed={800}
+      speed={500}
     >
       <SwiperSlide
         className="bg-[url(/images/about/1-min.jpg)] bg-cover w-full h-full bg-right md:bg-center lg:bg-right"
