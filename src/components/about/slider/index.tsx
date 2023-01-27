@@ -16,49 +16,35 @@ const AboutSlider = () => {
       loop={true}
       speed={800}
     >
-      <SwiperSlide className="w-full h-full">
-        <Image
-          src="/images/about/1-min.jpg"
-          fill
-          style={{ objectFit: "cover", filter: "grayscale(100%)" }}
-          alt=""
-        />
+      <SwiperSlide
+        className="bg-[url(/images/about/1-min.jpg)] bg-cover w-full h-full bg-right md:bg-center lg:bg-right"
+        style={{ filter: "grayscale(100%)" }}
+      >
+        &nbsp;
       </SwiperSlide>
-
-      <SwiperSlide className="w-full h-full">
-        <Image
-          src="/images/about/2-min.jpg"
-          fill
-          style={{ objectFit: "cover", filter: "grayscale(100%)" }}
-          alt=""
-        />
+      <SwiperSlide
+        className="bg-[url(/images/about/2-min.jpg)] bg-cover w-full h-full bg-right"
+        style={{ filter: "grayscale(100%)" }}
+      >
+        &nbsp;
       </SwiperSlide>
-
-      <SwiperSlide className="w-full h-full">
-        <Image
-          src="/images/about/3-min.jpg"
-          fill
-          style={{ objectFit: "cover", filter: "grayscale(100%)" }}
-          alt=""
-        />
+      <SwiperSlide
+        className="bg-[url(/images/about/3-min.jpg)] bg-cover w-full h-full bg-left"
+        style={{ filter: "grayscale(100%)" }}
+      >
+        &nbsp;
       </SwiperSlide>
-
-      <SwiperSlide className="w-full h-full">
-        <Image
-          src="/images/about/4-min.jpg"
-          fill
-          style={{ objectFit: "cover", filter: "grayscale(100%)" }}
-          alt=""
-        />
+      <SwiperSlide
+        className="bg-[url(/images/about/4-min.jpg)] bg-cover w-full h-full bg-left"
+        style={{ filter: "grayscale(100%)" }}
+      >
+        &nbsp;
       </SwiperSlide>
-
-      <SwiperSlide className="w-full h-full">
-        <Image
-          src="/images/about/5-min.jpg"
-          fill
-          style={{ objectFit: "cover", filter: "grayscale(100%)" }}
-          alt=""
-        />
+      <SwiperSlide
+        className="bg-[url(/images/about/5-min.jpg)] bg-cover w-full h-full bg-center"
+        style={{ filter: "grayscale(100%)" }}
+      >
+        &nbsp;
       </SwiperSlide>
     </Swiper>
   );

@@ -22,9 +22,6 @@ const Header = () => {
       >
         <div className="">
           <Logo />
-          {/* <h2 className="text-white pt-0 absolute font-dmserif left-12 text-2xl md:left-28 md:text-2xl lg:text-3xl xl:text-4xl mt-8">
-            Welcome to
-          </h2> */}
           <motion.h1
             className="text-white pt-7 lg:absolute overflow-hidden lg:whitespace-nowrap font-montserrat font-black text-[19vw] lg:text-[300px] leading-[0.9em] uppercase tracking-tight"
             style={{
