@@ -18,7 +18,7 @@ const About = () => {
             <br />I graduated as a graphic designer at INAP College, in 2011, and
             since then I have been working with branding, visual identity
             concept and creation of printed graphic pieces, but I love code and
-            I dedicated myself as a front-end developer, and I have good skills
+            I migrate to UX/UI and dedicated myself as a front-end developer, and I have good skills
             in Html, Css, Javascript, with focus on React and Nextjs.
             <br />
             <br />I love people, technology, forests and &quot;pão de

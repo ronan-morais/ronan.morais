@@ -20,7 +20,6 @@ const AboutSlider = () => {
         <Image
           src="/images/about/1-min.jpg"
           fill
-          placeholder="blur"
           style={{ objectFit: "cover", filter: "grayscale(100%)" }}
           alt=""
         />
@@ -30,7 +29,6 @@ const AboutSlider = () => {
         <Image
           src="/images/about/2-min.jpg"
           fill
-          placeholder="blur"
           style={{ objectFit: "cover", filter: "grayscale(100%)" }}
           alt=""
         />
@@ -40,7 +38,6 @@ const AboutSlider = () => {
         <Image
           src="/images/about/3-min.jpg"
           fill
-          placeholder="blur"
           style={{ objectFit: "cover", filter: "grayscale(100%)" }}
           alt=""
         />
@@ -50,7 +47,6 @@ const AboutSlider = () => {
         <Image
           src="/images/about/4-min.jpg"
           fill
-          placeholder="blur"
           style={{ objectFit: "cover", filter: "grayscale(100%)" }}
           alt=""
         />
@@ -60,7 +56,6 @@ const AboutSlider = () => {
         <Image
           src="/images/about/5-min.jpg"
           fill
-          placeholder="blur"
           style={{ objectFit: "cover", filter: "grayscale(100%)" }}
           alt=""
         />
