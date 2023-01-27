@@ -8,10 +8,10 @@ const About = () => {
 
   return (
     <section className="container snap-start flex-col md:flex-row overflow-hidden flex max-w-full h-screen bg-stone-900 bg-contain relative justify-center items-center">
-      <div className="w-full md:w-1/2">
-        <div className="p-12 lg:p-44 lg:pr-30 h-full lg:h-screen text-white">
-          <h3 className="text-3xl lg:text-6xl font-dmserif py-4 lg:py-10">About me</h3>
-          <div className="text-gray-400 font-montserrat text-xs lg:text-2xl">
+      <div className="w-full md:w-1/2 h-full">
+        <div className="p-12 md:p-20 lg:p-36 lg:pr-20 xl:pr-36 lg:h-screen text-white">
+          <h3 className="text-3xl md:text-4xl lg:text-6xl font-dmserif py-4 lg:py-10">About me</h3>
+          <div className="text-gray-400 font-montserrat text-xs sm:text-base md:text-lg lg:text-lg xl:text-xl">
             My name is Ronan Alves de Morais, I am 36 years old and Brazilian
             from Belo Horizonte, MG.
             <br />
@@ -26,7 +26,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-1/2 flex h-[50vh] md:h-screen">
+      <div className="w-full md:w-1/2 flex h-[100vh] md:h-screen">
         <AboutSlider />
       </div>
     </section>
