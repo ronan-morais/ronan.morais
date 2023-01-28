@@ -4,7 +4,6 @@ import { Autoplay, Pagination } from "swiper";
 import "swiper/swiper.min.css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
-import Image from "next/image";
 
 const WorksSlider = () => {
   return (
@@ -17,9 +16,10 @@ const WorksSlider = () => {
       loop={true}
       pagination={{
         clickable: true,
+        el: "#pagination"
       }}
       speed={500}
-      className="h-full"
+      className="w-full h-full pb-5"
     >
       <SwiperSlide>
         <div className="flex flex-col lg:flex-row h-full">
@@ -30,10 +30,10 @@ const WorksSlider = () => {
             slidesPerView={1}
             autoplay={{ delay: 4000 }}
             loop={true}
-            direction="vertical"
             pagination={{
               clickable: true,
             }}
+            direction="vertical"
             speed={500}
             className="w-full h-full"
           >
@@ -63,14 +63,15 @@ const WorksSlider = () => {
               <h4 className="text-2xl md:text-3xl lg:text-4xl font-dmserif text-gray-600 mix-blend-multiply">
                 Labnec
               </h4>
-              <h5 className="font-bold text-sm pt-1">
+              <h5 className="font-bold text-sm pt-1 pb-3">
                 Laboratório de análises clínicas e citológicas
               </h5>
             </div>
             <span>
-              <ul className="list-disc ml-4">
-                <li>Branding (design and management of visual identity)</li>
-                <li>Social media (design and management)</li>
+              <ul className="list-disc ml-4 leading-10">
+                <li className="leading-7"><b>Branding</b> (design and management of visual identity)</li>
+                <li><b>Social media</b> (design and management)</li>
+                <li><b>Website</b> (html, css, javascript)</li>
               </ul>
             </span>
           </div>

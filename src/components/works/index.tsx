@@ -20,9 +20,10 @@ const Works = () => {
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-dmserif py-4 lg:py-10 text-gray-600 mix-blend-multiply">
             My works
           </h3>
-          <div className="rounded-2xl overflow-clip bg-white/60 flex h-[70vh] backdrop-blur-lg">
+          <div className="rounded-2xl overflow-clip bg-white/60 flex flex-col h-[80vh] lg:h-[70vh] backdrop-blur-lg">
             <WorksSlider />
           </div>
+          <div id="pagination" className="flex justify-center"></div>
         </div>
       </div>
     </motion.section>
