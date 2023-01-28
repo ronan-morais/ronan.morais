@@ -81,6 +81,11 @@ const WorksSlider = () => {
                 &nbsp;
               </div>
             </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/vidalcred/vidalcred-9.jpg)] flex bg-cover bg-center h-full">
+                &nbsp;
+              </div>
+            </SwiperSlide>
           </Swiper>
           <div className="w-full lg:w-3/4 xl:w-3/6 p-10 lg:p-20 text-gray-600 text-sm lg:text-lg font-montserrat">
             <div className="mb-5">
