@@ -87,7 +87,7 @@ const WorksSlider = () => {
               <h4 className="text-2xl md:text-3xl lg:text-4xl font-dmserif text-gray-600 mix-blend-multiply">
                 VidalCred
               </h4>
-              <h5 className="font-bold text-sm pt-1 pb-3">
+              <h5 className="font-bold text-xs sm:text-sm pt-1 pb-1">
                 Personal financial credit
               </h5>
             </div>
