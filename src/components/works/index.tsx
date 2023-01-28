@@ -23,7 +23,7 @@ const Works = () => {
           <div className="rounded-2xl overflow-clip bg-white/60 flex flex-col h-[80vh] lg:h-[70vh] backdrop-blur-lg">
             <WorksSlider />
           </div>
-          <div id="pagination" className="flex justify-center"></div>
+          <div id="pagination" className="flex justify-center pt-4"></div>
         </div>
       </div>
     </motion.section>
