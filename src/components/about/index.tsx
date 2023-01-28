@@ -1,11 +1,7 @@
 "use client";
-import { motion, useScroll, useTransform } from "framer-motion";
 import AboutSlider from "./slider";
-import Image from "next/image";
 
 const About = () => {
-  const { scrollYProgress } = useScroll();
-
   return (
     <section className="container snap-start shrink flex-col md:flex-row overflow-hidden flex max-w-full h-screen bg-stone-900 bg-contain relative justify-center items-center">
       <div className="w-full md:w-1/2">
