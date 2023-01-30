@@ -1,5 +1,9 @@
 const Contact = () => {
-  return <div className="bg-purple-300 p-10 h-screen">Contact</div>;
+  return (
+    <section className="container flex max-w-full h-screen bg-[url(/images/bgworks.jpg)] bg-[#DEDDED] bg-right-bottom bg-no-repeat bg-size-[100%]">
+      section
+    </section>
+  );
 };
 
 export default Contact;

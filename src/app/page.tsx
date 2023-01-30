@@ -3,7 +3,7 @@ import About from "../components/about";
 import Works from "../components/works";
 import Contact from "../components/contact";
 import { Inter } from "@next/font/google";
-import styles from "./page.module.css";
+import Cursor from "../utils/cursor";
 
 const inter = Inter({ subsets: ["latin"] });
 

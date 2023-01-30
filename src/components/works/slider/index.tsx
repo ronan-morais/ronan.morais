@@ -36,11 +36,6 @@ const WorksSlider = () => {
             speed={500}
             className="w-full h-full"
           >
-            {/* <SwiperSlide>
-              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/vidalcred/vidalcred-0.jpg)] flex bg-cover bg-center h-full">
-                &nbsp;
-              </div>
-            </SwiperSlide> */}
             <SwiperSlide>
               <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/vidalcred/vidalcred-1.jpg)] flex bg-cover bg-center h-full">
                 &nbsp;
