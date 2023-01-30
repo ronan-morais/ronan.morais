@@ -5,12 +5,8 @@ import Logo from "./logo";
 
 const Header = () => {
   const { scrollYProgress } = useScroll();
-  const bg = useTransform(scrollYProgress, [0, 1], ["0px", "1000px"], {
-    clamp: false,
-  });
-  const left = useTransform(scrollYProgress, [0, 1], ["100%", "-1600px"], {
-    clamp: false,
-  });
+  const bg = useTransform(scrollYProgress, [0, 1], ["0px", "1000px"]);
+  const left = useTransform(scrollYProgress, [0, 1], ["100%", "-1600px"]);
   const opacity = useTransform(scrollYProgress, [0, 1], [0.4, 2]);
   const brandPosition = useTransform(scrollYProgress, [0, 1], ["25%", "180%"]);
 

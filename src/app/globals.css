@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#cursor{
+  transition: 250ms;
+  pointer-events: none;
+}
