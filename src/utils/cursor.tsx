@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 
 const Cursor = () => {
-  useEffect(() => {
+  /* useEffect(() => {
     const cursor = document.querySelector("#cursor");
     window.addEventListener("mousemove", e => {
       const x = e.pageX;
@@ -10,7 +10,7 @@ const Cursor = () => {
       cursor.style.left = `${x}px`;
       cursor.style.top = `${y}px`;
     });
-  }, []);
+  }, []); */
 
   return (
     <div
