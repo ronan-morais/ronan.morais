@@ -87,26 +87,34 @@ const WorksSlider = () => {
               <h4 className="text-2xl md:text-3xl lg:text-4xl font-dmserif text-gray-600 mix-blend-multiply">
                 VidalCred
               </h4>
-              <h5 className="font-bold text-xs sm:text-sm pt-1 pb-1">
+              <h5 className="font-bold text-xs sm:text-sm pt-1 mb-1 lg:border-b-4 lg:pb-6 lg:mb-4">
                 Personal financial credit
               </h5>
             </div>
-            <span>
-              <ul className="list-disc ml-4 lg:leading-10">
-                <li className="lg:eading-7">
-                  <b>Branding</b> (design and management of visual identity)
+            <div>
+              <ul className="list-disc ml-4 lg:leading-10 text-sm">
+                <li>
+                  <div className="lg:leading-5">
+                    <b>Branding</b> (design and management of visual identity)
+                  </div>
                 </li>
                 <li>
-                  <b>Social media</b> (design and management)
+                  <div className="lg:leading-5">
+                    <b>Social media</b> (design and management)
+                  </div>
                 </li>
                 <li>
-                  <b>Printed arts</b> (stationary and posters)
+                  <div className="lg:leading-5">
+                    <b>Printed arts</b> (stationary and posters)
+                  </div>
                 </li>
                 <li>
-                  <b>Website</b> (prototype in Figma)
+                  <div className="lg:leading-5">
+                    <b>Website</b> (prototype in Figma)
+                  </div>
                 </li>
               </ul>
-            </span>
+            </div>
           </div>
         </div>
       </SwiperSlide>
@@ -120,7 +128,7 @@ const WorksSlider = () => {
               <h4 className="text-2xl md:text-3xl lg:text-4xl font-dmserif text-gray-600 mix-blend-multiply">
                 Labnec
               </h4>
-              <h5 className="font-bold text-sm pt-1">
+              <h5 className="font-bold text-sm pt-1 lg:border-b-4 lg:pb-6 lg:mb-4">
                 Laboratório de análises clínicas e citológicas
               </h5>
             </div>

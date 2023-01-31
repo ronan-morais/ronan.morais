@@ -16,10 +16,10 @@ const Header = () => {
         className="absolute z-10 w-full flex pl-12 sm:px-20 lg:px-28"
         style={{ top: brandPosition }}
       >
-        <div className="">
+        <div>
           <Logo />
           <motion.h1
-            className="text-white pt-7 lg:absolute overflow-hidden lg:whitespace-nowrap font-montserrat font-black text-[18vw] lg:text-[300px] leading-[0.9em] uppercase tracking-tight"
+            className="text-white pt-7 lg:absolute overflow-hidden lg:whitespace-nowrap font-montserrat font-black text-[18vw] lg:text-[270px] leading-[0.9em] uppercase tracking-tight"
             style={{
               left: left,
             }}
@@ -29,7 +29,7 @@ const Header = () => {
               Ronan Morais Ronan Morais
             </span>
           </motion.h1>
-          <h2 className="text-white pt-3 lg:pt-[300px] lg:absolute font-dmserif text-xl md:text-2xl lg:text-4xl xl:text-5xl mt-1">
+          <h2 className="text-white pt-3 lg:pt-[300px] lg:absolute font-dmserif text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-1">
             Graphic Designer and <br className="md:hidden" />
             Front-End Developer
           </h2>

@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${dmSerif.variable}`}>
+    <html lang="en" className={`${montserrat.variable} ${dmSerif.variable} scroll-smooth`}>
       <head />
       <body className="cursor-default select-none">{children}</body>
     </html>
