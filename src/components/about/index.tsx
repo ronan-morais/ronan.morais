@@ -3,7 +3,7 @@ import AboutSlider from "./slider";
 
 const About = () => {
   return (
-    <section className="container snap-start shrink flex-col md:flex-row overflow-hidden flex max-w-full h-screen bg-stone-900 bg-contain relative justify-center items-center">
+    <section className="container  snap-start snap-always shrink flex-col md:flex-row overflow-hidden flex max-w-full h-screen bg-stone-900 bg-contain relative justify-center items-center">
       <div className="w-full md:w-1/2">
         <div className="p-12 sm:p-20 md:p-20 lg:p-36 lg:pr-20 xl:pr-36 lg:h-screen text-white">
           <h3 className="text-3xl md:text-4xl lg:text-5xl font-dmserif py-4 lg:py-10">

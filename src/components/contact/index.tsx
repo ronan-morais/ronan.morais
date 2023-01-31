@@ -8,7 +8,7 @@ const Contact = () => {
   const size = useTransform(scrollYProgress, [0.8, 1], ["110%", "130%"]);
 
   return (
-    <motion.section className="container flex max-w-full h-screen lg:h-[50vh]">
+    <motion.section className="container snap-start snap-always flex max-w-full h-screen lg:h-[50vh]">
       <div className="p-10 sm:p-20 lg:px-40 w-full text-gray-500">
         <h1 className="mt-7 pb-1 overflow-hidden lg:whitespace-nowrap font-dmserif font-thin text-[18vw] lg:text-5xl tracking-tight mix-blend-multiply">
           Say Hi!

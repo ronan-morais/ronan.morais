@@ -12,7 +12,7 @@ export default function Home() {
   });
 
   return (
-    <main>
+    <main className="snap-y snap-mandatory">
       <Header />
       <About />
       <motion.div
