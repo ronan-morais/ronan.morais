@@ -16,19 +16,19 @@ const AboutSlider = () => {
       speed={500}
     >
       <SwiperSlide
-        className="bg-[url(/images/about/1-min.jpg)] bg-cover w-full h-full bg-right md:bg-center lg:bg-right"
+        className="bg-[url(/images/about/1-min.jpg)] bg-cover w-full h-full bg-center lg:bg-right"
         style={{ filter: "grayscale(100%)" }}
       >
         &nbsp;
       </SwiperSlide>
       <SwiperSlide
-        className="bg-[url(/images/about/2-min.jpg)] bg-cover w-full h-full bg-right"
+        className="bg-[url(/images/about/2-min.jpg)] bg-cover w-full h-full bg-right md:bg-center"
         style={{ filter: "grayscale(100%)" }}
       >
         &nbsp;
       </SwiperSlide>
       <SwiperSlide
-        className="bg-[url(/images/about/3-min.jpg)] bg-cover w-full h-full bg-left"
+        className="bg-[url(/images/about/3-min.jpg)] bg-cover w-full h-full bg-left md:bg-center"
         style={{ filter: "grayscale(100%)" }}
       >
         &nbsp;
