@@ -11,7 +11,7 @@ const Header = () => {
   const brandPosition = useTransform(scrollYProgress, [0, 1], ["25%", "180%"]);
 
   return (
-    <section className="container snap-start snap-always shrink-0 overflow-hidden flex max-w-full h-screen bg-black bg-contain relative justify-center items-center">
+    <section className="container snap-center snap-always shrink-0 overflow-hidden flex max-w-full h-screen bg-black bg-contain relative justify-center items-center">
       <motion.div
         className="absolute z-10 w-full flex pl-12 sm:px-20 lg:px-28"
         style={{ top: brandPosition }}

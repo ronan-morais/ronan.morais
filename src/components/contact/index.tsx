@@ -3,17 +3,17 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Logo from "../header/logo";
 
 const Contact = () => {
-  const { scrollYProgress } = useScroll();
-  const bg = useTransform(scrollYProgress, [0.8, 1], ["80%", "100%"]);
-  const size = useTransform(scrollYProgress, [0.8, 1], ["110%", "130%"]);
 
   return (
-    <motion.section className="container snap-start snap-always flex max-w-full h-screen lg:h-[50vh]">
+    <motion.section className="container snap-center snap-always flex max-w-full h-screen lg:h-[50vh]">
       <div className="p-10 sm:p-20 lg:px-40 w-full text-gray-500">
         <h1 className="mt-7 pb-1 overflow-hidden lg:whitespace-nowrap font-dmserif font-thin text-[18vw] lg:text-5xl tracking-tight mix-blend-multiply">
           Say Hi!
         </h1>
         <nav className="text-sm md:text-lg lg:mt-6 lg:text-2xl font-montserrat font-medium lg:w-1/2 mix-blend-multiply">
+          <div>
+            +55 31 99663-8481
+          </div>
           <a
             className="transition-all duration-300 ease-in-out"
             href="mailto:hello@ronanmorais.com"
