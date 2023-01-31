@@ -32,7 +32,7 @@ const WorksSlider = () => {
             pagination={{
               clickable: true,
             }}
-            direction="vertical"
+            direction="horizontal"
             speed={500}
             className="w-full h-full"
           >
