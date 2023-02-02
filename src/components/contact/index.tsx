@@ -16,7 +16,7 @@ const Contact = () => {
           </div>
           <a
             className="transition-all duration-300 ease-in-out"
-            href="mailto:hello@ronanmorais.com"
+            href="mailto:hello@ronanmorais.com" target="_blank" rel="noreferrer"
           >
             <span className="bg-left-bottom bg-gradient-to-r from-gray-500 to-gray-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               hello@ronanmorais.com
@@ -25,10 +25,19 @@ const Contact = () => {
           <br />
           <a
             className="transition-all duration-300 ease-in-out"
-            href="https://linkedin.com/in/ronanmorais"
+            href="https://linkedin.com/in/ronanmorais" target="_blank" rel="noreferrer"
           >
             <span className="bg-left-bottom bg-gradient-to-r from-gray-500 to-gray-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               linkedin.com/in/ronanmorais
+            </span>
+          </a>
+          <br />
+          <a
+            className="transition-all duration-300 ease-in-out"
+            href="https://github.com/ronan-morais" target="_blank" rel="noreferrer"
+          >
+            <span className="bg-left-bottom bg-gradient-to-r from-gray-500 to-gray-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+              github.com/ronan-morais
             </span>
           </a>
         </nav>
