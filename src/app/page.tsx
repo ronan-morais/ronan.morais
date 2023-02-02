@@ -4,6 +4,7 @@ import Header from "../components/header";
 import About from "../components/about";
 import Works from "../components/works";
 import Contact from "../components/contact";
+import Cursor from "../utils/cursor";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -24,6 +25,7 @@ export default function Home() {
         <Works />
         <Contact />
       </motion.div>
+      {/* <Cursor /> */}
     </main>
   );
 }

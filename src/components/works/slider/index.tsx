@@ -8,22 +8,21 @@ import "swiper/css/pagination";
 const WorksSlider = () => {
   return (
     <Swiper
-      modules={[Autoplay, Pagination]}
+      modules={[Pagination]}
       grabCursor={true}
       spaceBetween={0}
       slidesPerView={1}
-      loop={true}
+      loop={false}
       pagination={{
         clickable: true,
         el: "#pagination",
       }}
-      speed={500}
       className="w-full h-full pb-5"
     >
       <SwiperSlide>
         <div className="flex flex-col lg:flex-row h-full">
           <Swiper
-            modules={[Autoplay, Pagination]}
+            modules={[Pagination]}
             grabCursor={true}
             spaceBetween={0}
             slidesPerView={1}
@@ -32,7 +31,73 @@ const WorksSlider = () => {
               clickable: true,
             }}
             direction="horizontal"
-            speed={500}
+            className="w-full h-full"
+          >
+            <SwiperSlide>
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket01.jpg)] flex bg-cover bg-center h-full">
+                &nbsp;
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket02.jpg)] flex bg-cover bg-center h-full">
+                &nbsp;
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket03.jpg)] flex bg-cover bg-center h-full">
+                &nbsp;
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket04.jpg)] flex bg-cover bg-center h-full">
+                &nbsp;
+              </div>
+            </SwiperSlide>
+          </Swiper>
+          <div className="w-full lg:w-3/4 xl:w-3/6 p-10 lg:p-20 text-gray-600 text-sm lg:text-lg font-montserrat">
+            <div className="mb-5">
+              <h4 className="text-2xl md:text-3xl lg:text-4xl font-dmserif text-gray-600 mix-blend-multiply">
+                Ticket pra Já
+              </h4>
+              <h5 className="font-bold text-xs sm:text-sm pt-1 mb-1 lg:border-b-4 lg:pb-6 lg:mb-4">
+                Ticket Sales Management
+              </h5>
+            </div>
+            <div>
+              <ul className="list-disc ml-4 lg:leading-10 text-sm">
+                <li>
+                  <div className="lg:leading-5">
+                    <b>Branding</b> (design and management of visual identity)
+                  </div>
+                </li>
+                <li>
+                  <div className="lg:leading-5">
+                    <b>Front-end development</b> (React / NextJS)
+                  </div>
+                </li>
+                <li>
+                  <div className="lg:leading-5">
+                    <b>Website</b> (Public view and internal dashboard
+                    management)
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="flex flex-col lg:flex-row h-full">
+          <Swiper
+            modules={[Pagination]}
+            grabCursor={true}
+            spaceBetween={0}
+            slidesPerView={1}
+            loop={false}
+            pagination={{
+              clickable: true,
+            }}
+            direction="horizontal"
             className="w-full h-full"
           >
             <SwiperSlide>
@@ -87,7 +152,7 @@ const WorksSlider = () => {
                 VidalCred
               </h4>
               <h5 className="font-bold text-xs sm:text-sm pt-1 mb-1 lg:border-b-4 lg:pb-6 lg:mb-4">
-                Personal financial credit
+                Personal Financial Credit
               </h5>
             </div>
             <div>
@@ -114,29 +179,6 @@ const WorksSlider = () => {
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </SwiperSlide>
-      <SwiperSlide>
-        <div className="flex flex-col lg:flex-row h-full">
-          <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/zebra.jpg)] flex bg-cover bg-center h-full">
-            &nbsp;
-          </div>
-          <div className="w-full lg:w-3/4 xl:w-3/6 p-10 lg:p-20 text-gray-600 text-sm lg:text-lg font-montserrat">
-            <div className="mb-5">
-              <h4 className="text-2xl md:text-3xl lg:text-4xl font-dmserif text-gray-600 mix-blend-multiply">
-                Labnec
-              </h4>
-              <h5 className="font-bold text-sm pt-1 lg:border-b-4 lg:pb-6 lg:mb-4">
-                Laboratório de análises clínicas e citológicas
-              </h5>
-            </div>
-            <span>
-              <ul className="list-disc ml-4">
-                <li>Branding (design and management of visual identity)</li>
-                <li>Social media (design and management)</li>
-              </ul>
-            </span>
           </div>
         </div>
       </SwiperSlide>

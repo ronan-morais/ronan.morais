@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 
 const Cursor = () => {
-  /* useEffect(() => {
+ /*  useEffect(() => {
     const cursor = document.querySelector("#cursor");
     window.addEventListener("mousemove", e => {
       const x = e.pageX;
