@@ -3,7 +3,6 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Logo from "../header/logo";
 
 const Contact = () => {
-
   return (
     <motion.section className="container snap-center snap-always flex max-w-full h-screen lg:h-[50vh]">
       <div className="p-10 sm:p-20 lg:px-40 w-full text-gray-600">
@@ -11,12 +10,16 @@ const Contact = () => {
           Say Hi!
         </h1>
         <nav className="text-sm md:text-lg lg:mt-6 lg:text-2xl font-montserrat font-medium lg:w-1/2 mix-blend-multiply">
-          <div>
-            +55 31 99663-8481
-          </div>
           <a
             className="transition-all duration-300 ease-in-out"
-            href="mailto:hello@ronanmorais.com" target="_blank" rel="noreferrer"
+            href="tel:+55(31)99663-8481"
+          >
+            <div>+55 31 99663-8481</div>
+            <br />
+          </a>
+          <a
+            className="transition-all duration-300 ease-in-out"
+            href="mailto:hello@ronanmorais.com"
           >
             <span className="bg-left-bottom bg-gradient-to-r from-gray-500 to-gray-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               hello@ronanmorais.com
@@ -25,7 +28,9 @@ const Contact = () => {
           <br />
           <a
             className="transition-all duration-300 ease-in-out"
-            href="https://linkedin.com/in/ronanmorais" target="_blank" rel="noreferrer"
+            href="https://linkedin.com/in/ronanmorais"
+            target="_blank"
+            rel="noreferrer"
           >
             <span className="bg-left-bottom bg-gradient-to-r from-gray-500 to-gray-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               linkedin.com/in/ronanmorais
@@ -34,7 +39,9 @@ const Contact = () => {
           <br />
           <a
             className="transition-all duration-300 ease-in-out"
-            href="https://github.com/ronan-morais" target="_blank" rel="noreferrer"
+            href="https://github.com/ronan-morais"
+            target="_blank"
+            rel="noreferrer"
           >
             <span className="bg-left-bottom bg-gradient-to-r from-gray-500 to-gray-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
               github.com/ronan-morais
