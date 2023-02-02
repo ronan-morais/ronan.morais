@@ -34,22 +34,37 @@ const WorksSlider = () => {
             className="w-full h-full"
           >
             <SwiperSlide>
-              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket01.jpg)] flex bg-cover bg-center h-full">
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket1-min.jpg)] flex bg-cover bg-center h-full">
                 &nbsp;
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket02.jpg)] flex bg-cover bg-center h-full">
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket2-min.jpg)] flex bg-cover bg-center h-full">
                 &nbsp;
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket03.jpg)] flex bg-cover bg-center h-full">
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket3-min.jpg)] flex bg-cover bg-center h-full">
                 &nbsp;
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket04.jpg)] flex bg-cover bg-center h-full">
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket4-min.jpg)] flex bg-cover bg-center h-full">
+                &nbsp;
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket5-min.jpg)] flex bg-cover bg-center h-full">
+                &nbsp;
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket6-min.jpg)] flex bg-cover bg-center h-full">
+                &nbsp;
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-red-300 w-full lg:w-4/4 bg-[url(/images/works/ticketpraja/ticket7-min.jpg)] flex bg-cover bg-center h-full">
                 &nbsp;
               </div>
             </SwiperSlide>
