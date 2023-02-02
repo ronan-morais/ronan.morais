@@ -87,13 +87,12 @@ const WorksSlider = () => {
                 </li>
                 <li>
                   <div className="lg:leading-5">
-                    <b>Front-end development</b> (React / NextJS)
+                    <b>UX/UI</b> (Planning, validating and prototyping on Figma)
                   </div>
                 </li>
                 <li>
                   <div className="lg:leading-5">
-                    <b>Website</b> (Public view and internal dashboard
-                    management)
+                    <b>Front-end development</b> (React / NextJS coding, public interface and internal dashboard)
                   </div>
                 </li>
               </ul>
