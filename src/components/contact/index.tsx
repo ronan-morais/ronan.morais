@@ -14,9 +14,9 @@ const Contact = () => {
             className="transition-all duration-300 ease-in-out"
             href="tel:+55(31)99663-8481"
           >
-            <div>+55 31 99663-8481</div>
-            <br />
+            <span>+55 31 99663-8481</span>
           </a>
+          <br />
           <a
             className="transition-all duration-300 ease-in-out"
             href="mailto:hello@ronanmorais.com"
