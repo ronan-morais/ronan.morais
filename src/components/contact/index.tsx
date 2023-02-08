@@ -7,7 +7,7 @@ const Contact = () => {
     <motion.section className="container snap-center snap-always flex max-w-full h-screen lg:h-[50vh]">
       <div className="p-10 sm:p-20 lg:px-40 w-full text-gray-600">
         <h1 className="mt-7 pb-1 overflow-hidden lg:whitespace-nowrap font-dmserif font-thin text-[18vw] lg:text-5xl tracking-tight mix-blend-multiply">
-          Say Hi!
+          Say Hi
         </h1>
         <nav className="text-sm md:text-lg lg:mt-6 lg:text-2xl font-montserrat font-medium lg:w-1/2 mix-blend-multiply">
           <a

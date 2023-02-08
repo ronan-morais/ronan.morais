@@ -25,7 +25,6 @@ export default function Home() {
         <Works />
         <Contact />
       </motion.div>
-      {/* <Cursor /> */}
     </main>
   );
 }
