@@ -14,7 +14,7 @@ const Contact = () => {
             className="transition-all duration-300 ease-in-out"
             href="tel:+55(31)99663-8481"
           >
-            <span>+55 31 99663-8481</span>
+            <span>+61 0416 429 064</span>
           </a>
           <br />
           <a
