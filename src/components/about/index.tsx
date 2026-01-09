@@ -10,7 +10,7 @@ const About = () => {
             About me
           </h3>
           <div className="text-gray-400 font-montserrat text-xs sm:text-base md:text-lg lg:text-lg">
-            My name is Ronan Alves de Morais, I'am Brazilian
+            My name is Ronan Alves de Morais, I&apos;am Brazilian
             from Belo Horizonte, MG.
             <br />
             <br />I graduated as a graphic designer at INAP College, in 2011,
