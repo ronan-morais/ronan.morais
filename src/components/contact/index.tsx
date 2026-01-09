@@ -12,9 +12,9 @@ const Contact = () => {
         <nav className="text-sm md:text-lg lg:mt-6 lg:text-2xl font-montserrat font-medium lg:w-1/2 mix-blend-multiply">
           <a
             className="transition-all duration-300 ease-in-out"
-            href="tel:+55(31)99663-8481"
+            href="tel:+61456759840"
           >
-            <span>+61 0416 429 064</span>
+            <span>+61 456 759 850</span>
           </a>
           <br />
           <a
@@ -22,7 +22,7 @@ const Contact = () => {
             href="mailto:hello@ronanmorais.com"
           >
             <span className="bg-left-bottom bg-gradient-to-r from-gray-500 to-gray-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
-              hello@ronanmorais.com
+              ronan86@gmail.com
             </span>
           </a>
           <br />
