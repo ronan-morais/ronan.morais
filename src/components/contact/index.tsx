@@ -14,7 +14,7 @@ const Contact = () => {
             className="transition-all duration-300 ease-in-out"
             href="tel:+61456759840"
           >
-            <span>+61 456 759 850</span>
+            <span>+61 456 759 840</span>
           </a>
           <br />
           <a
